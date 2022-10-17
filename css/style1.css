@@ -1,0 +1,48 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/библиотека.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+article{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul{
+  max-width: 100%;
+  list-style: none;
+  display: inline-flex;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+li{
+  width: 200px;
+}
+header{
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(141, 133, 156,1.0);
+}
+
+.p1{
+  border:3px solid black;
+  border-radius: 10px;
+  padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  margin: 0;
+  text-align: center;
+  font-size: x-large;
+  background-color: rgba(255, 255, 255,0.8);
+}
