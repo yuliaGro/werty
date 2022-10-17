@@ -10,35 +10,39 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-article{
+main{
   max-width: 1200px;
   margin: 0 auto;
 }
 ul{
   max-width: 100%;
+  min-width: 1200px;
   list-style: none;
   display: inline-flex;
-  text-align: left;
+  text-align: center;
   padding: 0;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 1.0);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 li{
-  width: 200px;
+  width: 100%;
 }
 header{
-  padding: 0;
+  padding: 5px;
   margin: 0;
   height: 60px;
   width: 100%;
   background-color: rgba(141, 133, 156,1.0);
 }
-
+a{
+  text-decoration-line: none;
+  color: black;
+}
 .p1{
   border:3px solid black;
   border-radius: 10px;
-  padding-top: 100px;
+  padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 30px;
@@ -46,4 +50,7 @@ header{
   text-align: center;
   font-size: x-large;
   background-color: rgba(255, 255, 255,0.8);
+}
+.headerP{
+  padding: 10px;
 }
